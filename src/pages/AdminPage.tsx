@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
 import { isAdminLoggedIn, resetSiteStore, saveSiteStore, setAdminLoggedIn, getSiteStore, type SiteStoreData } from '../lib/siteStore.ts'
 import type { EventItem, PastEventItem, TeamMember } from '../data/sdcContent.ts'
+import { useNavigate } from 'react-router-dom'
 
 const EMPTY_TEAM: TeamMember = {
   id: '', name: '', role: '', domain: 'WEB', bio: '', avatarAccent: '#7cff7a', initials: '', socials: {},

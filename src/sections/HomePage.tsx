@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 import { Navbar } from '../components/Navbar.tsx'
 import { Footer } from '../components/Footer.tsx'
 import { useSiteStore } from '../hooks/useSiteStore.ts'
@@ -6,7 +6,7 @@ import { aboutContent, pastTeamContent, whatWeDoContent } from '../data/sdcConte
 import { UniverseScene } from '../three/UniverseScene.tsx'
 import { TeamCarousel } from '../components/TeamCarousel.tsx'
 
-const reveal = {
+const reveal: Variants = {
   hidden: { opacity: 0, y: 28 },
   show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] } },
 }
