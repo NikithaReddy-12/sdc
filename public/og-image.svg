@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#143026" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#071b1e" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7cff7a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7cff7a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5ff7f0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#5ff7f0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#ffffff" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#030712"/>
+  <rect width="1200" height="630" fill="url(#bgGlow)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="250" cy="300" r="280" fill="url(#orbGlow)"/>
+  <circle cx="950" cy="320" r="260" fill="url(#cyanOrb)"/>
+
+  <!-- Border Frame -->
+  <rect x="30" y="30" width="1140" height="570" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5"/>
+
+  <!-- Header Badge -->
+  <g transform="translate(90, 110)">
+    <rect x="0" y="0" width="340" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.15"/>
+    <circle cx="18" cy="17" r="5" fill="#7cff7a"/>
+    <text x="34" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#9ca3af" text-transform="uppercase">GRIET AUTONOMOUS · HYDERABAD</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="90" y="240" font-family="'Space Grotesk', system-ui, sans-serif" font-size="76" font-weight="800" letter-spacing="-1" fill="#7cff7a">
+    SDC
+  </text>
+  <text x="280" y="240" font-family="'Space Grotesk', system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-0.5" fill="#f3f4f6">
+    — Skill Development Cell
+  </text>
+
+  <!-- Tagline -->
+  <text x="90" y="310" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="400" fill="#9ca3af">
+    Autonomous student-led technical cell fostering engineering excellence across
+  </text>
+  <text x="90" y="345" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="400" fill="#9ca3af">
+    modern software systems, distributed architectures, and technical leadership.
+  </text>
+
+  <!-- Tech Domains Badges -->
+  <g transform="translate(90, 420)">
+    <rect x="0" y="0" width="150" height="38" fill="#ffffff" fill-opacity="0.03" stroke="#7cff7a" stroke-opacity="0.4"/>
+    <text x="75" y="24" font-family="'Space Grotesk', monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#7cff7a" text-anchor="middle">AI &amp; ML</text>
+
+    <rect x="165" y="0" width="165" height="38" fill="#ffffff" fill-opacity="0.03" stroke="#5ff7f0" stroke-opacity="0.4"/>
+    <text x="247" y="24" font-family="'Space Grotesk', monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#5ff7f0" text-anchor="middle">WEB SYSTEMS</text>
+
+    <rect x="345" y="0" width="150" height="38" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="420" y="24" font-family="'Space Grotesk', monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#f3f4f6" text-anchor="middle">DEVOPS</text>
+
+    <rect x="510" y="0" width="165" height="38" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="592" y="24" font-family="'Space Grotesk', monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#f3f4f6" text-anchor="middle">CYBERSECURITY</text>
+  </g>
+
+  <!-- Graphic Emblem (Right side) -->
+  <g transform="translate(930, 315)">
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#7cff7a" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#5ff7f0" stroke-width="1.5" stroke-opacity="0.5"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="0" cy="0" r="12" fill="#7cff7a"/>
+    <line x1="-130" y1="0" x2="130" y2="0" stroke="#7cff7a" stroke-opacity="0.25" stroke-width="1"/>
+    <line x1="0" y1="-130" x2="0" y2="130" stroke="#5ff7f0" stroke-opacity="0.25" stroke-width="1"/>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="90" y="530" font-family="'Space Grotesk', monospace" font-size="13" font-weight="500" letter-spacing="2" fill="#6b7280">
+    HTTPS://SDC.GRIET.AC.IN // GRIET CAMPUS, BACHUPALLY, HYDERABAD
+  </text>
+</svg>

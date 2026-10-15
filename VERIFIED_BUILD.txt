@@ -1,0 +1,5 @@
+GSDC VERIFIED REBUILD
+- Clean hero is the first screen
+- EntryPortal overlay removed
+- Present Team uses rotating 3D horizontal carousel
+- No DEBUG panel component is rendered
